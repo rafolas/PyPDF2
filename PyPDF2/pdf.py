@@ -897,25 +897,25 @@ class PdfFileWriter(object):
 
     
     def addURI(self, pagenum, uri, rect, border=None):
-		"""
-		
-		Add an URI from a rectangular area to the specified page.
-		This uses the basic structure of AddLink
-
-		:param int pagenum: index of the page on which to place the link.
-		:param int uri: string -- uri of resource to link to.
-		:param rect: :class:`RectangleObject<PyPDF2.generic.RectangleObject>` or array of four
-		integers specifying the clickable rectangular area
-		``[xLL, yLL, xUR, yUR]``, or string in the form ``"[ xLL yLL xUR yUR ]"``.
-		:param border: if provided, an array describing border-drawing
-		properties. See the PDF spec for details. No border will be
-		drawn if this argument is omitted.
-		
-		REMOVED FIT/ZOOM ARG
-		-John Mulligan
-
-		"""
-
+		#"""
+		#
+		#Add an URI from a rectangular area to the specified page.
+		#This uses the basic structure of AddLink
+#
+#		:param int pagenum: index of the page on which to place the link.
+#		:param int uri: string -- uri of resource to link to.
+#		:param rect: :class:`RectangleObject<PyPDF2.generic.RectangleObject>` or array of four
+#		integers specifying the clickable rectangular area
+#		``[xLL, yLL, xUR, yUR]``, or string in the form ``"[ xLL yLL xUR yUR ]"``.
+#		:param border: if provided, an array describing border-drawing
+#		properties. See the PDF spec for details. No border will be
+#		drawn if this argument is omitted.
+#		
+#		REMOVED FIT/ZOOM ARG
+#		-John Mulligan
+#
+#		"""
+#
 		
 		
 		
