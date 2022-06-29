@@ -897,7 +897,7 @@ class PdfFileWriter(object):
 
     
     def addURI(self, pagenum, uri, rect, border=None):
-		"""
+        """
 		
 		Add an URI from a rectangular area to the specified page.
 		This uses the basic structure of AddLink
